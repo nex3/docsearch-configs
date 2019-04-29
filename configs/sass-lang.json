@@ -41,7 +41,12 @@
   },
   "only_content_level": true,
   "custom_settings": {
-    "separatorsToIndex": "#_"
+    "separatorsToIndex": "#_",
+    "synonyms": [
+      ["minify", "minified", "compressed"],
+      ["&", "ampersand", "parent"],
+      ["child", "nesting"]
+    ]
   },
   "conversation_id": [
     "785935668"
